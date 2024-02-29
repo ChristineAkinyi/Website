@@ -1,0 +1,78 @@
+.navlist{
+    display: inline-flex;
+    list-style: none;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+#Container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    button{
+        background-color: grey;
+        color: white;
+        padding: 10px 22px;
+        border-radius: 20%;
+    }
+}
+
+.vase1{
+    padding-left: 5px;
+}
+
+
+#Secondpage{
+    padding: 10px 70px;
+    display: grid;
+}
+.samples{
+    display: inline-flex;
+}
+
+#footer{
+    display: flex;
+}
+
+.foot{
+    list-style: none;
+}
+
+.content{
+    align-items: center;
+}
+
+#sixthpage{
+    display: flex;
+}
+
+.image{
+    border: none;
+    margin: auto;
+    padding-right: 70px;
+}
+
+.note{
+    border: none;
+    margin: auto;
+    padding-left: 80px;
+}
+
+#fourthpage{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+h1{
+       text-align: center;
+}
+
+.icons{
+    display: inline-flex;
+    
+}
+
