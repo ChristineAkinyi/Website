@@ -1,6 +1,6 @@
-.navlist{
-    display: inline-flex;
-    list-style: none;
+body{
+    background-color: grey;
+    margin-left: 10%;
 }
 
 .navbar{
@@ -10,69 +10,110 @@
     padding: 10px 20px;
 }
 
-#Container{
+.navlist{
+    display: inline-flex;
+    list-style: none;
+    gap: 5%;
+}
+
+#list{
+    margin-left: 500px;
+} 
+
+#container{
     display: grid;
-    grid-template-columns: 50% 50%;
-    button{
-        background-color: grey;
-        color: white;
-        padding: 10px 22px;
-        border-radius: 20%;
-    }
+    grid-template-columns: 40% 40%;
+    padding-top: 6px;
+    
 }
 
-.vase1{
-    padding-left: 5px;
+#h1{
+    font-size: xx-large;
 }
 
+#img1{
+    width: 50%;
+  } 
 
-#Secondpage{
-    padding: 10px 70px;
-    display: grid;
+.ikeo{
+    display: inline-flex;
+    gap: 20%;
+    margin-left: 0%;
 }
+
 .samples{
     display: inline-flex;
+    gap: 10%;
 }
 
-#footer{
-    display: flex;
+.img{
+    width: 200px;
+    height: 400px;
 }
 
-.foot{
-    list-style: none;
+#restyle{
+    display: grid;
+    grid-template-columns: 40% 40%;
 }
-
-.content{
-    align-items: center;
-}
-
-#sixthpage{
-    display: flex;
-}
-
-.image{
-    border: none;
-    margin: auto;
-    padding-right: 70px;
-}
-
-.note{
-    border: none;
-    margin: auto;
-    padding-left: 80px;
-}
+   
+button{
+        background-color: blueviolet;
+        color: black;
+        padding: 10px 22px;
+        border-radius: 5px;
+        width: 200px;
+    } 
 
 #fourthpage{
     display: grid;
     grid-template-columns: 50% 50%;
 }
 
-h1{
-       text-align: center;
+.fifthpage{
+    text-align: center;
+    margin-right: 10%;
 }
 
 .icons{
     display: inline-flex;
+    gap: 20%;
     
 }
+
+.text3{
+    text-align: center;
+    margin-left: auto;
+}
+
+#sixthpage{
+    display: flex;  
+    padding-top: 100px;  
+}
+
+
+.note{
+    margin: auto;
+    padding-left: 80px;
+} 
+
+.footer{
+    display: flex;
+    gap: 10%;
+}
+
+.foot{
+    list-style: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
